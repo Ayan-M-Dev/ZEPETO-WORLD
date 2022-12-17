@@ -18,6 +18,15 @@ ScriptedImporter:
   wrapperTypes: []
   WrapperFilters: []
   wrapperOutputDirectory: Generated
-  compiledResult: '{"source":"//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiR2FtZU9iamVjdFNhbXBsZS5qcyIsInNvdXJjZVJvb3QiOiIiLCJzb3VyY2VzIjpbIkdhbWVPYmplY3RTYW1wbGUudHMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiJ9","assetPath":"Assets/GameObjectSample.ts","manifest":{"properties":[],"name":"GameObjectSample","description":""},"isCompiled":true}'
-  typescriptHash: 1909f56bfc062723c751e8b465ee728b
+  compiledResult: '{"source":"\"use strict\";\r\nObject.defineProperty(exports, \"__esModule\",
+    { value: true });\r\nconst ZEPETO_Script_1 = require(\"ZEPETO.Script\");\r\nconst
+    UnityEngine_1 = require(\"UnityEngine\");\r\nclass GameObjectSample extends ZEPETO_Script_1.ZepetoScriptBehaviour
+    {\r\n    Start() {\r\n        //GameObject Create\r\n        var tempObj = new
+    UnityEngine_1.GameObject();\r\n        //clone the GameObject in parameter\r\n       
+    var obj = UnityEngine_1.Object.Instantiate(tempObj);\r\n        //GameObject
+    Destroy\r\n        UnityEngine_1.Object.Destroy(obj);\r\n        // GetComponent
+    with Generic\r\n        var myTransform = this.GetComponent($typeof(UnityEngine_1.Transform));\r\n       
+    // AddComponent with Generic\r\n        var animator = this.gameObject.AddComponent($typeof(UnityEngine_1.Animator));\r\n   
+    }\r\n}\r\nexports.default = GameObjectSample;\r\n//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiR2FtZU9iamVjdFNhbXBsZS5qcyIsInNvdXJjZVJvb3QiOiIiLCJzb3VyY2VzIjpbIkdhbWVPYmplY3RTYW1wbGUudHMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6Ijs7QUFBQSxpREFBcUQ7QUFDckQsNkNBQXNFO0FBRXRFLE1BQXFCLGdCQUFpQixTQUFRLHFDQUFxQjtJQUVqRSxLQUFLO1FBQ0gsbUJBQW1CO1FBQ25CLElBQUksT0FBTyxHQUFHLElBQUksd0JBQVUsRUFBRSxDQUFDO1FBRS9CLG1DQUFtQztRQUNuQyxJQUFJLEdBQUcsR0FBRyxvQkFBTSxDQUFDLFdBQVcsQ0FBQyxPQUFPLENBQUMsQ0FBQztRQUV0QyxvQkFBb0I7UUFDcEIsb0JBQU0sQ0FBQyxPQUFPLENBQUMsR0FBRyxDQUFDLENBQUM7UUFFcEIsNEJBQTRCO1FBQzVCLElBQUksV0FBVyxHQUFHLElBQUksQ0FBQyxZQUFZLFNBQUMsdUJBQVMsRUFBRyxDQUFDO1FBRWpELDRCQUE0QjtRQUM1QixJQUFJLFFBQVEsR0FBRyxJQUFJLENBQUMsVUFBVSxDQUFDLFlBQVksU0FBQyxzQkFBUSxFQUFHLENBQUM7SUFFMUQsQ0FBQztDQUVGO0FBcEJELG1DQW9CQyJ9","assetPath":"Assets/GameObjectSample.ts","manifest":{"properties":[],"name":"GameObjectSample","description":""},"isCompiled":true}'
+  typescriptHash: d423feb746b6242004b6765c5034dbe6
   onlyWriteTrigger: 0
