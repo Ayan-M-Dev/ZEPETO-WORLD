@@ -27,5 +27,5 @@ ScriptedImporter:
     console.error(''Hi, this is Retr0! This log code is displayed on the console
     when your application runs into an error.'');\r\n    }\r\n}\r\nexports.default
     = HelloWorld;\r\n//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiSGVsbG9Xb3JsZC5qcyIsInNvdXJjZVJvb3QiOiIiLCJzb3VyY2VzIjpbIkhlbGxvV29ybGQudHMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6Ijs7QUFBQSxpREFBcUQ7QUFFckQsTUFBcUIsVUFBVyxTQUFRLHFDQUFxQjtJQUUzRCxLQUFLO1FBQ0gsT0FBTyxDQUFDLEdBQUcsQ0FBQyxpRkFBaUYsQ0FBQyxDQUFDO1FBQy9GLE9BQU8sQ0FBQyxJQUFJLENBQUMsOEdBQThHLENBQUMsQ0FBQztRQUM3SCxPQUFPLENBQUMsS0FBSyxDQUFDLHdHQUF3RyxDQUFDLENBQUM7SUFDMUgsQ0FBQztDQUNGO0FBUEQsNkJBT0MifQ==","assetPath":"Assets/HelloWorld.ts","manifest":{"properties":[],"name":"HelloWorld","description":""},"isCompiled":true}'
-  typescriptHash: d76f1d4f158c265754e8f9085be48388
+  typescriptHash: 4b2f507300413c41880eb608b9b3f55d
   onlyWriteTrigger: 0
