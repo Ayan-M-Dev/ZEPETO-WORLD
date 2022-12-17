@@ -7,4 +7,4 @@ export default class HelloWorld extends ZepetoScriptBehaviour {
     console.warn('Hi, this is Retr0! This log code outputs a warning message, but your code is still able to run successfully.');
     console.error('Hi, this is Retr0! This log code is displayed on the console when your application runs into an error.');
   }
-}
+} 
