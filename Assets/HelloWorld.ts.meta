@@ -1,0 +1,31 @@
+fileFormatVersion: 2
+guid: b8d2b2892d63e2748be54d7c2994d4b4
+importerOverride: ZEPETO.Script.Compiler:ZEPETO.Script:TypescriptAssetImporter
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: -1123457745, guid: 54cf806323ffe4418a4ce4cc63fe6b9d, type: 3}
+  isAssemblyDeclarations: 0
+  assembly: 
+  generateAllTypes: 1
+  types: []
+  generateWrapper: 0
+  overrideWrapperTypes: 0
+  wrapperTypes: []
+  WrapperFilters: []
+  wrapperOutputDirectory: Generated
+  compiledResult: '{"source":"\"use strict\";\r\nObject.defineProperty(exports, \"__esModule\",
+    { value: true });\r\nconst ZEPETO_Script_1 = require(\"ZEPETO.Script\");\r\nclass
+    HelloWorld extends ZEPETO_Script_1.ZepetoScriptBehaviour {\r\n    Start() {\r\n       
+    console.log(''Hi, this Retr0! This log code is used to keep track of what your
+    code is doing.'');\r\n        console.warn(''Hi, this is Retr0! This log code
+    outputs a warning message, but your code is still able to run successfully.'');\r\n       
+    console.error(''Hi, this is Retr0! This log code is displayed on the console
+    when your application runs into an error.'');\r\n    }\r\n}\r\nexports.default
+    = HelloWorld;\r\n//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiSGVsbG9Xb3JsZC5qcyIsInNvdXJjZVJvb3QiOiIiLCJzb3VyY2VzIjpbIkhlbGxvV29ybGQudHMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6Ijs7QUFBQSxpREFBcUQ7QUFFckQsTUFBcUIsVUFBVyxTQUFRLHFDQUFxQjtJQUUzRCxLQUFLO1FBQ0gsT0FBTyxDQUFDLEdBQUcsQ0FBQyxpRkFBaUYsQ0FBQyxDQUFDO1FBQy9GLE9BQU8sQ0FBQyxJQUFJLENBQUMsOEdBQThHLENBQUMsQ0FBQztRQUM3SCxPQUFPLENBQUMsS0FBSyxDQUFDLHdHQUF3RyxDQUFDLENBQUM7SUFDMUgsQ0FBQztDQUNGO0FBUEQsNkJBT0MifQ==","assetPath":"Assets/HelloWorld.ts","manifest":{"properties":[],"name":"HelloWorld","description":""},"isCompiled":true}'
+  typescriptHash: d76f1d4f158c265754e8f9085be48388
+  onlyWriteTrigger: 0
